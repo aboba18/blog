@@ -3,9 +3,12 @@
 
 {% for p in posts %}
     <div>
-        {{p.post_header}}
+        <h1><a href="{{p.get_absolute_url}}">{{p.post_header}} </a></h1>
+        <br>
         {{p.category.canegory_name}}
-        {{p.datetime}}
+        <br>
+        <h2>{{p.datetime}}<h2>
+        
     </div>
     <br>
 {% endfor %}
