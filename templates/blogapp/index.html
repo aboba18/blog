@@ -3,6 +3,7 @@
 
 {% for p in posts %}
     <div>
+        <--! для всіх нових постів робіть автоматично посилання -->
         <h1><a href="{{p.get_absolute_url}}">{{p.post_header}} </a></h1>
         <br>
         {{p.category.canegory_name}}
