@@ -27,6 +27,12 @@ header .link {
     margin-top:20px;
     padding: 10px;
     border-radius: 5%;
+    padding-bottom: 20px;
+    background-color: #9f76afe5;
+}
 
 
+.data{
+    float: right;
+    color:rgb(33, 0, 63);
 }
