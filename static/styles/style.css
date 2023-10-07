@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(162, 80, 238, 0.836);
+    font-family: cursive;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+
+header .link {
+    background-color: rgb(255, 255, 255);
+    color: rgb(125, 204, 105);
+    border: 2px solid #73089ee5; /* Green */
+}
+
+.blog_post{
+    border:  1px solid rgba(134, 231, 69, 0.836);
+    width: 50%;
+    margin-top:20px;
+    padding: 10px;
+    border-radius: 5%;
+
+
+}
