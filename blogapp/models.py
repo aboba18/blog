@@ -12,6 +12,7 @@ class Post(models.Model):
     author = models.CharField(max_length=12)
     datetime = models.DateTimeField()
     category =  models.ForeignKey(Category, on_delete=models.SET_DEFAULT, default='no category')
+    image = models.ImageField(upload_to="images/", default=None, null=True)
 
     def get_absolute_url(self):
         return reverse("post-details", args=[str(self.id)])

@@ -1,5 +1,7 @@
 {% extends "layout.html" %} 
 {% block content %}
+{% load static %}
+<img class="logo" src="{% static 'images/logo.png' %}" alt="not found">
 
 {% for p in posts %}
     <div class="blog_post">

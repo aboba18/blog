@@ -64,4 +64,25 @@ header .link {
 }
 .post_text p{
     font: 10px;
+    width: 75%;
+    display: inline-block;
+}
+
+
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position:absolute;
+    top:100px;
+    left:75%;
+}
+
+.post_text img{
+    margin-top: 0;
+    width:10%;
+    position: relative;
+    bottom: 50px;
 }
