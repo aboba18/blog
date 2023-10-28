@@ -82,7 +82,18 @@ header .link {
 
 .post_text img{
     margin-top: 0;
-    width:10%;
-    position: relative;
-    bottom: 50px;
+    width: 150px;
+    height: 100px;
+    
+}
+
+
+.my-list{
+    width: 50%;
+}
+
+.my-list-item{
+    background-color:#734a83e5 ;
+    margin: 3px;
+   
 }
